@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes  de letras -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>TG-VA</title>
+    <!-- Importacion de archivos CSS y JS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/126990822?v=4">
+    <script src="./js/script.js" type="text/javascript" defer></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+    <main>
+      <div class="header"> TG-VA@portafolio: $~</div>
+      <div class="terminal" id="terminalWindow" >
+        <section id="terminal">
+          <div class="command">guest@portafolio: $~ <span class="error" id="date"></span></div>
+          <div class="title">My Portfolio</div>
+<pre>████████╗░██████╗░░░░██╗░░░██╗░█████╗░
+╚══██╔══╝██╔════╝░░░░██║░░░██║██╔══██╗
+░░░██║░░░██║░░██╗░░░░╚██╗░██╔╝███████║
+░░░██║░░░██║░░╚██╗░░░░╚████╔╝░██╔══██║
+░░░██║░░░╚██████╔╝██╗░░╚██╔╝░░██║░░██║
+░░░╚═╝░░░░╚═════╝░╚═╝░░░╚═╝░░░╚═╝░░╚═╝</pre><span class="command">Type 'help' to see the list available commands.<br>
+Type 'sumfetch' to display summary.</span>
+        </section>
+        <div class="prompt">
+          <span class="command">guest@portafolio:</span> <span class="title">$~</span> <input id="promtInput"/>
+        </div>
+      </div>
+    </main>
+    <div class="hidden" id="promptClone">
+      <span class="command">guest@portafolio:</span> <span class="title">$~</span> <span class="promtCloneInput"></span>
+      <div class="promtCloneContent"></div>
+    </div>
+
+    <div class="hidden" id="promptClone">
+        <span class="command">guest@portafolio:</span> <span class="title">$~</span> <span class="promtCloneInput"></span>
+        <div class="promtCloneContent"></div>
+      </div>
+
+    <div class="hidden" id="help">
+        <div class="indent">
+            <div>
+              <span class="command">[Enter]</span>:
+              <div class="indent">trigger completion.</div> 
+            </div>
+        </div>
+        <div>
+            <span class="command">[clear]</span>:
+            <div class="indent">clear terminal.</div> 
+        </div>
+        <div>
+            <span class="command">[sumfetch]</span>:
+            <div class="indent">type 'sumfetch' to display summary.</div> 
+          </div>
+    </div>
+
+    <div class="hidden" id="sumfetch">
+      <div class="indent">
+        <pre>
+                        ,---------------------------,
+                        |  /---------------------\  |
+                        | |                       | |
+                        | |     Tristan           | |
+                        | |      Venegas          | |
+                        | |       Services        | |
+                        | |                       | |
+                        |  \_____________________/  |
+                        |___________________________|
+                      ,---\_____     []     _______/------,
+                    /         /______________\           /|
+                  /___________________________________ /  |
+                  |                                   |   |    
+                  |  _ _ _                 [-------]  |   |   
+                  |  o o o                 [-------]  |  /   
+                  |__________________________________ |/    
+              /-------------------------------------/|      
+            /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ /
+          /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ /
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</pre>
+      </div>
+        <div class="indent">
+            <div class="sectionTitle">sumfecth: summary display</div>
+            <div class="indent">
+                <span class="title">- - - - - - - </span>
+            </div>
+        </div>
+        <div class="indent">
+            <div class="sectionTitle">About</div>
+            <div class="indent">
+                <span class="title">CV </span> - <a href="https://drive.google.com/file/d/1fcwAS8jQk4CR4LbWUHhRGFZmDF3dOxIC/view?usp=sharing" target="_blank"><span class="command">check out</span> </a>
+            </div>
+            <div class="indent">
+                <span class="title">Github </span> - <a href="https://github.com/TG-VA" target="_blank"><span class="command">check out</span> </a>
+            </div>
+            <div class="indent">
+                <span class="title">Linkedin </span> - <a href="https://www.linkedin.com/in/tgva/" target="_blank"><span class="command">check out</span> </a>
+            </div>
+            <div class="indent">
+                <span class="title">Email </span> - <a href="mailto:tristanvenegasdev@gmail.com?subject=Asunto%20del%20correo&body=Mensaje%20predeterminado" target="_blank"><span class="command">check out</span> </a>
+            </div>
+            <div class="indent">
+                <span class="title">- - - - - - - </span>
+            </div>
+        </div>
+
+        <div class="indent">
+            <div class="sectionTitle">Projects </div>
+            <div class="indent">
+              <span class="title">Project 1 </span> - <a href="https://github.com/TG-VA/Mercedes-Silva---Landing-Page" target="_blank"><span class="command">mercedes silva | landing page </span> </a>
+            </div>
+            <div class="indent">
+              <span class="title">Project 2 </span> - <a href="https://github.com/TG-VA/LaberintoDeLaMente" target="_blank"><span class="command">laberinto de la mente | game</span> </a>
+            </div>
+            <div class="indent">
+              <span class="title">Project 3 </span> - <a href="https://github.com/TG-VA/DoggoGallery" target="_blank"><span class="command">doggo gallety | API</span> </a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/particlesjs-config.json"></script>
+</body>
+</html>
